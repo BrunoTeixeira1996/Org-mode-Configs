@@ -8,10 +8,14 @@
 #+LATEX_HEADER: \usepackage{amsmath, amsthm, amssymb}
 #+LATEX_HEADER: \usepackage[table, xcdraw]{xcolor}
 
+% Changing the langue of TOC and list of figures
+#+LATEX_HEADER: \renewcommand*{\contentsname}{Conteúdo}
+#+LATEX_HEADER: \renewcommand*{\listfigurename}{Lista de figuras}
+
 % Colorizing links in a nicer way.
-#+LATEX_HEADER: \definecolor{bblue}{HTML}{0645AD}
-#+LATEX_HEADER: \usepackage[colorlinks]{hyperref}
-#+LATEX_HEADER: \hypersetup{colorlinks, linkcolor=blue, urlcolor=bblue}
+% #+LATEX_HEADER: \definecolor{bblue}{HTML}{0645AD}
+% #+LATEX_HEADER: \usepackage[colorlinks]{hyperref}
+% #+LATEX_HEADER: \hypersetup{colorlinks, linkcolor=blue, urlcolor=bblue}
 
 % Moving up the title.
 #+LATEX_HEADER: \usepackage{titling}
@@ -25,6 +29,7 @@
 #+LATEX_HEADER: \usepackage{subfig} % Subfigures (not needed in Org I think)
 #+LATEX_HEADER: \usepackage{hyperref} % Links
 #+LATEX_HEADER: \usepackage{listings} % Code highlighting
+
 % Disables flush alighment on the right side. Personal preference.
 # #+LATEX_HEADER: \RaggedRight
 
