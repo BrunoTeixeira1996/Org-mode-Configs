@@ -1,0 +1,33 @@
+#+TITLE: Relatorio ...
+#+SUBTITLE: Departamento de Engenharia Informática e de Sistemas (DEIS)
+#+DATE: ...
+#+EMAIL: a2019100036@isec.pt
+#+AUTHOR: Bruno Alexandre Ferreira Pinto Teixeira
+#+SETUPFILE: /home/brun0/Desktop/brun0 Stuff/orgmode/setup.org
+
+#+LATEX_HEADER: \renewcommand*{\contentsname}{Conteúdo}
+#+LATEX_HEADER: \renewcommand*{\listfigurename}{Lista de figuras}
+#+OPTIONS: toc:nil
+
+#+ATTR_LATEX: :width 5 cm
+[[file:isec.png]]
+
+@@latex:\clearpage@@
+#+TOC: headlines
+@@latex:\clearpage@@
+
+@@latex:\listoffigures@@
+@@latex:\clearpage@@
+
+* Introdução
+* Desenvolvimento
+** Foto
+#+CAPTION: exemplo de caption de uma imagem
+#+LABEL: fig:qualquer-coisa
+[[file:isec.png]]
+
+asdokdsaokdsaosa
+sadosadkpoadsodsa
+
+* Conclusão
+asdoksadodsaod
