@@ -3,14 +3,14 @@
 #+DATE: ...
 #+EMAIL: a2019100036@isec.pt
 #+AUTHOR: Bruno Alexandre Ferreira Pinto Teixeira
-#+SETUPFILE: /home/brun0/Desktop/brun0 Stuff/orgmode/setup.org
+#+SETUPFILE: /home/brun0/Desktop/brun0 Stuff/orgmode/setup/setup.org
 
 #+LATEX_HEADER: \renewcommand*{\contentsname}{Conteúdo}
 #+LATEX_HEADER: \renewcommand*{\listfigurename}{Lista de figuras}
 #+OPTIONS: toc:nil
 
 #+ATTR_LATEX: :width 5 cm
-[[file:isec.png]]
+[[file:images/isec.png]]
 
 @@latex:\clearpage@@
 #+TOC: headlines
@@ -24,7 +24,7 @@
 ** Foto
 #+CAPTION: exemplo de caption de uma imagem
 #+LABEL: fig:qualquer-coisa
-[[file:isec.png]]
+[[file:images/isec.png]]
 
 asdokdsaokdsaosa
 sadosadkpoadsodsa
