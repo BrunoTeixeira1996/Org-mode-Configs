@@ -46,7 +46,7 @@
 #+LATEX_HEADER: \usepackage[explicit]{titlesec}
 
 % Title customization
-#+LATEX_HEADER: \pretitle{\begin{center}\fontsize{20pt}{20pt}\selectfont}
+#+LATEX_HEADER: \pretitle{\begin{center}\fontsize{20pt}{20pt}\selectfont\Huge\bfseries}
 #+LATEX_HEADER: \posttitle{\par\end{center}}
 #+LATEX_HEADER: \preauthor{\begin{center}\vspace{-6bp}\fontsize{14pt}{14pt}\selectfont}
 #+LATEX_HEADER: \postauthor{\par\end{center}\vspace{-25bp}}

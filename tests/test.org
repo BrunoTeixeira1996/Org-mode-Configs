@@ -2,11 +2,8 @@
 #+SUBTITLE: Departamento de Engenharia Informática e de Sistemas (DEIS)
 #+DATE: ...
 #+EMAIL: a2019100036@isec.pt
-#+AUTHOR: Bruno Alexandre Ferreira Pinto Teixeira
+#+AUTHOR: Bruno Alexandre Ferreira Pinto Teixeira (a2019100036)
 #+SETUPFILE: /home/brun0/Desktop/brun0 Stuff/orgmode/setup/setup.org
-
-#+LATEX_HEADER: \renewcommand*{\contentsname}{Conteúdo}
-#+LATEX_HEADER: \renewcommand*{\listfigurename}{Lista de figuras}
 #+OPTIONS: toc:nil
 
 #+ATTR_LATEX: :width 5 cm
