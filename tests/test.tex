@@ -1,4 +1,4 @@
-% Created 2021-03-19 Fri 00:48
+% Created 2021-03-19 Fri 00:52
 % Intended LaTeX compiler: pdflatex
 \documentclass[letterpaper, 11pt]{article}
 \usepackage{lmodern} % Ensures we have the right font
@@ -47,6 +47,8 @@
 \begin{document}
 
 \maketitle
+;; \url{https://www.fbxiang.com/blog/2017/11/01/write\_papers\_with\_org\_mode\_and\_spacemacs.html}
+
 \begin{center}
 \includegraphics[width=5 cm]{images/isec.png}
 \end{center}
@@ -59,7 +61,7 @@
 \clearpage
 
 \section{Introdução}
-\label{sec:orga332a34}
+\label{sec:org16d332e}
 \paragraph{}
 Neste relatório apresentamos a arquitetura assim como o funcionamento do trabalho prático.\\
 Durante as várias metas existiram algumas mudanças, no entanto todas as mudanças são descritas e apresentadas de forma a justificar o porquê dessas mudanças terem sido feitas.
@@ -67,10 +69,10 @@ Durante as várias metas existiram algumas mudanças, no entanto todas as mudan�
 \clearpage
 
 \section{Desenvolvimento}
-\label{sec:orgc575ebc}
+\label{sec:org99c3fd6}
 
 \subsection{Arquitetura}
-\label{sec:org3dd57fa}
+\label{sec:org3d5d926}
 
 \paragraph{}
 Para este trabalho usamos uma arquitetura cliente servidor, em que o servidor é designado por árbitro e o cliente é uma interface para um jogador.\\
@@ -83,13 +85,13 @@ Na figura seguinte mostramos um exemplo da arquitetura, com todos os pormenores,
 \begin{figure}[htbp]
 \centering
 \includegraphics[width=.9\linewidth]{images/esquema.png}
-\caption{\label{fig:orgc2576db}
+\caption{\label{fig:org42eb751}
 exemplo de caption de uma imagem}
 \end{figure}
 
 
 \subsubsection{Estruturas}
-\label{sec:orge62ea90}
+\label{sec:org8a0ba9d}
 
 \paragraph{}
 Consoante a realização do trabalho, decidimos fazer algumas alterações a algumas estruturas assim como acrescentar outras.
@@ -101,7 +103,7 @@ Foi tambem criada uma nova estrutura, \textbf{Mainframe}, que é usada para a pa
 A estrutura \textbf{User}, presente tanto no \textbf{referee} como no \textbf{client}, manteve-se igual à meta anterior.
 
 \subsubsection{Threads}
-\label{sec:org58d64b2}
+\label{sec:org44f4fa0}
 
 \paragraph{}
 Foram desenvolvidas três funções thread além da main thread.
@@ -118,7 +120,7 @@ A thread \textbf{fork\_game} é responsavel por realizar o \textbf{fork dos jogo
 Após o fim do tempo do campeonato e do encerramento de todas as threads é recomeçado outro campeonato. 
 
 \subsection{Funcionamento}
-\label{sec:orgbe22c52}
+\label{sec:org160e711}
 
 \paragraph{}
 O arbitro é iniciado e fica à espera de pelo menos dois jogadores para conseguir iniciar um campeonato.\\
@@ -138,7 +140,7 @@ A inscrição e a saida de um jogador num campeonato só pode ser feita durante 
 Quando o campeonato termina, os jogos são apagados enviando um sinal para cada jogo, as threads são terminadas e é recolhida a informação da pontuação de todos os jogadores, mostrando a todos os jogadores a sua pontuação e a melhor daquele campeonato.Quando o arbitro termina, todos os \textbf{FIFOS} são fechados e eliminados.
 
 \section{Conclusão}
-\label{sec:orgb0a9e2e}
+\label{sec:org130fa96}
 
 \paragraph{}
 Após a realização do trabalho, não foi encontrado nenhum \textbf{bug} que pusesse em causa a execução e a comunicação do \textbf{arbitro} e do \textbf{cliente}.\\

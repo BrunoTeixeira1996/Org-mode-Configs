@@ -7,6 +7,9 @@
 #+OPTIONS: toc:nil
 #+OPTIONS: ^:nil
 
+
+;; https://www.fbxiang.com/blog/2017/11/01/write_papers_with_org_mode_and_spacemacs.html
+
 #+ATTR_LATEX: :width 5 cm
 [[file:images/isec.png]]
 
