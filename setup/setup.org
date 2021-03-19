@@ -2,6 +2,8 @@
 #+LaTeX_CLASS_OPTIONS: [letterpaper, 11pt]
 #+LATEX_HEADER: \usepackage{lmodern} % Ensures we have the right font
 
+#+LATEX_HEADER: \usepackage{parskip}
+#+LATEX_HEADER: {\setlength{\parindent}{0pt}
 
 #+LATEX_HEADER: \usepackage[T1]{fontenc}
 #+LATEX_HEADER: \usepackage[AUTO]{inputenc}

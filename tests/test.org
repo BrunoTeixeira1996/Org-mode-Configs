@@ -8,8 +8,6 @@
 #+OPTIONS: ^:nil
 
 
-;; https://www.fbxiang.com/blog/2017/11/01/write_papers_with_org_mode_and_spacemacs.html
-
 #+ATTR_LATEX: :width 5 cm
 [[file:images/isec.png]]
 
@@ -51,7 +49,6 @@ Consoante a realização do trabalho, decidimos fazer algumas alterações a alg
 \paragraph{}
 À estrutura *Games* foi-lhe retirado um campo, *pergunta*, pois não era utilizado.\\
 A estrutura *Player* manteve-se, apenas foi adicionado o *player_trinco* sendo este um *mutex* para trabalhar com os respetivos dados e continua a ser usada para identificar um jogador num array dinâmico de estruturas.\\
-
 Foi tambem criada uma nova estrutura, *Mainframe*, que é usada para a passagem de informação para as threads. Esta estrutura contém tanto o array de jogadores como o array de jogos existentes, o tempo de espera (wait time) e o tempo do campeonato,assim como algumas flags. \\
 A estrutura *User*, presente tanto no *referee* como no *client*, manteve-se igual à meta anterior.
 
@@ -63,7 +60,6 @@ Foram desenvolvidas três funções thread além da main thread.
 Temos a *thread_register*, função usada para fazer a leitura do *pipe do arbitro* e proceder consoante a leitura, quer adicionar um novo jogador quer ler um comando do cliente. Esta thread é responsável também por lançar a *thread_timer* quando tem 2 jogadores já inscritos.
 \paragraph{}
 A função *thread_timer* cronometra o tempo de espera, antes de lançar um campeonato, e antes de cronometrar o tempo de duração do mesmo, escolhe de forma aleatória o jogo.\\
-
 Esta thread lança uma thread chamada de *fork_game* para cada *jogador*.\\
 A *thread_timer* notifica os jogadores sobre o inicio, o fim e o respetivo score do campeonato.
 \paragraph{}
