@@ -1,31 +1,50 @@
-#+TITLE: Relatorio ...
-#+SUBTITLE: Departamento de Engenharia Informática e Sistemas (DEIS)
-#+AUTHOR: Bruno Alexandre Ferreira Pinto Teixeira
-#+SETUPFILE: /home/brun0/Desktop/brun0 Stuff/orgmode/setup
-#+DATE: 2020-02-20
-#+LANGUAGE: pt
-#+LATEX_HEADER: \renewcommand*{\contentsname}{Conteúdo}
-#+LATEX_HEADER: \renewcommand*{\listfigurename}{Lista de figuras}
-#+EMAIL: a02019100036@isec.pt
+#+TITLE: Relatório ...
+#+SUBTITLE: Departamento de Engenharia Informática e de Sistemas (DEIS)
+#+DATE: ...
+#+EMAIL: a2019100036@isec.pt
+#+AUTHOR: Bruno Alexandre Ferreira Pinto Teixeira (a2019100036)
+#+SETUPFILE: /home/brun0/Desktop/brun0 Stuff/Org-mode-Configs/setup/setup.org
 #+OPTIONS: toc:nil
+#+OPTIONS: ^:nil
+
+
 #+ATTR_LATEX: :width 5 cm
-[[file:isec.png]]
+[[file:images/isec.png]]
 
 @@latex:\clearpage@@
 #+TOC: headlines
 @@latex:\clearpage@@
-
-
-@@latex:\listoffigures@@
-
+#+TOC: listings
 @@latex:\clearpage@@
 
-
 * Introdução
-* Desenvolvimento
-** Foto
-#+CAPTION: exemplo de legenda
-#+LABEL: fig:uma-label-qualquer
-[[file:isec.png]]
 
+\paragraph{}
+Isto é uma introdução ...
+@@latex:\clearpage@@
+
+* Desenvolvimento
+** Subheader
+   
+\paragraph{}
+Isto é texto do subheader
+
+#+CAPTION: exemplo de caption de uma imagem
+#+LABEL: fig:qualquer-coisa
+[[file:images/isec.png]]
+
+
+*** Subsubheader
+
+\paragraph{}
+Isto é um texto do subsubheader
+
+** Outro subheader
+\paragraph{}
+Isto é texto do subheader
+
+@@latex:\clearpage@@
 * Conclusão
+
+\paragraph{}
+Isto é uma conclusão

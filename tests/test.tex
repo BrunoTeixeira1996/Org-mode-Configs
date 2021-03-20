@@ -1,4 +1,4 @@
-% Created 2021-03-20 Sat 11:56
+% Created 2021-03-20 Sat 12:40
 % Intended LaTeX compiler: pdflatex
 \documentclass[letterpaper, 11pt]{article}
 \usepackage{lmodern} % Ensures we have the right font
@@ -6,7 +6,6 @@
 {\setlength{\parindent}{0pt}
 \usepackage[T1]{fontenc}
 \usepackage[utf8]{inputenc}
-\usepackage{csquotes}
 \usepackage{graphicx}
 \usepackage{amsmath, amsthm, amssymb}
 \usepackage[table, xcdraw]{xcolor}
@@ -58,12 +57,12 @@
 \clearpage
 \tableofcontents
 \clearpage
-
 \listoffigures
 \clearpage
 
 \section{Introdução}
-\label{sec:orgd7ab4aa}
+\label{sec:org8076142}
+
 \paragraph{}
 Neste relatório apresentamos a arquitetura assim como o funcionamento do trabalho prático.\\
 Durante as várias metas existiram algumas mudanças, no entanto todas as mudanças são descritas e apresentadas de forma a justificar o porquê dessas mudanças terem sido feitas.
@@ -71,10 +70,10 @@ Durante as várias metas existiram algumas mudanças, no entanto todas as mudan�
 \clearpage
 
 \section{Desenvolvimento}
-\label{sec:orgbcdcffb}
+\label{sec:orgb2cd4c2}
 
 \subsection{Arquitetura}
-\label{sec:org02180fc}
+\label{sec:org618fa28}
 
 \paragraph{}
 Para este trabalho usamos uma arquitetura cliente servidor, em que o servidor é designado por árbitro e o cliente é uma interface para um jogador.\\
@@ -87,21 +86,21 @@ Na figura seguinte mostramos um exemplo da arquitetura, com todos os pormenores,
 \begin{figure}[htbp]
 \centering
 \includegraphics[width=.9\linewidth]{images/esquema.png}
-\caption{\label{fig:org9334cce}
+\caption{\label{fig:orgcb73477}
 exemplo de caption de uma imagem}
 \end{figure}
 
 \begin{figure}[htbp]
 \centering
 \includegraphics[width=.9\linewidth]{images/esquema.png}
-\caption{\label{fig:org774ede4}
+\caption{\label{fig:org50d2e40}
 mais um exemplo de caption de uma imagem}
 \end{figure}
 
 
 
 \subsubsection{Estruturas}
-\label{sec:org0b08fbe}
+\label{sec:org0d6cf94}
 
 \paragraph{}
 Consoante a realização do trabalho, decidimos fazer algumas alterações a algumas estruturas assim como acrescentar outras.
@@ -112,7 +111,7 @@ Foi tambem criada uma nova estrutura, \textbf{Mainframe}, que é usada para a pa
 A estrutura \textbf{User}, presente tanto no \textbf{referee} como no \textbf{client}, manteve-se igual à meta anterior.
 
 \subsubsection{Threads}
-\label{sec:org432ae7a}
+\label{sec:orga4bbb22}
 
 \paragraph{}
 Foram desenvolvidas três funções thread além da main thread.
@@ -128,7 +127,7 @@ A thread \textbf{fork\_game} é responsavel por realizar o \textbf{fork dos jogo
 Após o fim do tempo do campeonato e do encerramento de todas as threads é recomeçado outro campeonato. 
 
 \subsection{Funcionamento}
-\label{sec:org3a9e2ee}
+\label{sec:org911495d}
 
 \paragraph{}
 O arbitro é iniciado e fica à espera de pelo menos dois jogadores para conseguir iniciar um campeonato.\\
@@ -148,7 +147,7 @@ A inscrição e a saida de um jogador num campeonato só pode ser feita durante 
 Quando o campeonato termina, os jogos são apagados enviando um sinal para cada jogo, as threads são terminadas e é recolhida a informação da pontuação de todos os jogadores, mostrando a todos os jogadores a sua pontuação e a melhor daquele campeonato.Quando o arbitro termina, todos os \textbf{FIFOS} são fechados e eliminados.
 
 \section{Conclusão}
-\label{sec:org8ed05be}
+\label{sec:org5a98a41}
 
 \paragraph{}
 Após a realização do trabalho, não foi encontrado nenhum \textbf{bug} que pusesse em causa a execução e a comunicação do \textbf{arbitro} e do \textbf{cliente}.\\

@@ -1,0 +1,103 @@
+% Created 2021-03-20 Sat 12:50
+% Intended LaTeX compiler: pdflatex
+\documentclass[letterpaper, 11pt]{article}
+\usepackage{lmodern} % Ensures we have the right font
+\usepackage{parskip}
+{\setlength{\parindent}{0pt}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{graphicx}
+\usepackage{amsmath, amsthm, amssymb}
+\usepackage[table, xcdraw]{xcolor}
+\renewcommand*{\contentsname}{Conteúdo}
+\renewcommand*{\listfigurename}{Lista de figuras}
+\renewcommand*{\figurename}{Figura}
+\usepackage{titling}
+\setlength{\droptitle}{-6em}
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{1em}
+\usepackage[stretch=10]{microtype}
+\usepackage{hyphenat}
+\usepackage{ragged2e}
+\usepackage{subfig} % Subfigures (not needed in Org I think)
+\usepackage{hyperref} % Links
+\usepackage{listings} % Code highlighting
+\usepackage[top=1in, bottom=1.25in, left=1.55in, right=1.55in]{geometry}
+\renewcommand{\baselinestretch}{1.15}
+\usepackage[explicit]{titlesec}
+\pretitle{\begin{center}\fontsize{20pt}{20pt}\selectfont\Huge\bfseries}
+\posttitle{\par\end{center}}
+\preauthor{\begin{center}\vspace{-6bp}\fontsize{14pt}{14pt}\selectfont}
+\postauthor{\par\end{center}\vspace{-25bp}}
+\predate{\begin{center}\fontsize{12pt}{12pt}\selectfont}
+\postdate{\par\end{center}\vspace{0em}}
+\titlespacing\section{0pt}{10pt}{10pt} % left margin, space before section header, space after section header
+\titlespacing\subsection{0pt}{10pt}{10pt} % left margin, space before subsection header, space after subsection header
+\titlespacing\subsubsection{0pt}{10pt}{10pt} % left margin, space before subsection header, space after subsection header
+\usepackage{enumitem}
+\setlist{itemsep=-2pt} % or \setlist{noitemsep} to leave space around whole list
+\author{Bruno Alexandre Ferreira Pinto Teixeira (a2019100036)}
+\date{\ldots{}}
+\title{Relatório \ldots{}\\\medskip
+\large Departamento de Engenharia Informática e de Sistemas (DEIS)}
+\hypersetup{
+ pdfauthor={Bruno Alexandre Ferreira Pinto Teixeira (a2019100036)},
+ pdftitle={Relatório \ldots{}},
+ pdfkeywords={},
+ pdfsubject={},
+ pdfcreator={Emacs 26.3 (Org mode 9.1.9)}, 
+ pdflang={English}}
+\begin{document}
+
+\maketitle
+\begin{center}
+\includegraphics[width=5 cm]{images/isec.png}
+\end{center}
+
+\clearpage
+\tableofcontents
+\clearpage
+\listoffigures
+\clearpage
+
+\section{Introdução}
+\label{sec:org17d4c60}
+
+\paragraph{}
+Isto é uma introdução \ldots{}
+\clearpage
+
+\section{Desenvolvimento}
+\label{sec:orgdf06671}
+\subsection{Subheader}
+\label{sec:org89d6058}
+
+\paragraph{}
+Isto é texto do subheader
+
+\begin{figure}[htbp]
+\centering
+\includegraphics[width=.9\linewidth]{images/isec.png}
+\caption{\label{fig:orgbc82246}
+exemplo de caption de uma imagem}
+\end{figure}
+
+
+\subsubsection{Subsubheader}
+\label{sec:org75a2111}
+
+\paragraph{}
+Isto é um texto do subsubheader
+
+\subsection{Outro subheader}
+\label{sec:orga1da778}
+\paragraph{}
+Isto é texto do subheader
+
+\clearpage
+\section{Conclusão}
+\label{sec:orge2d7fa3}
+
+\paragraph{}
+Isto é uma conclusão
+\end{document}

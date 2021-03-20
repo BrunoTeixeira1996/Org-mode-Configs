@@ -23,4 +23,13 @@
 ```
 
 
-**If you need to change the output format, just change the** `setup.org` **file**
+
+**If you need to change the output format, language, styling , just change the** `setup.org` **file in** `setup` **folder**
+
+**In the** `tests` **folder there are some example of pdf outputs**
+
+**In the** `skeleton` **folder is where we focus to build a report**
+
+## Note
+
+Dont forget to change the `setup` file location

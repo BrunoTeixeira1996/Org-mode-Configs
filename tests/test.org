@@ -14,11 +14,11 @@
 @@latex:\clearpage@@
 #+TOC: headlines
 @@latex:\clearpage@@
-
-@@latex:\listoffigures@@
+#+TOC: listings
 @@latex:\clearpage@@
 
 * Introdução
+
 \paragraph{}
 Neste relatório apresentamos a arquitetura assim como o funcionamento do trabalho prático.\\
 Durante as várias metas existiram algumas mudanças, no entanto todas as mudanças são descritas e apresentadas de forma a justificar o porquê dessas mudanças terem sido feitas.
