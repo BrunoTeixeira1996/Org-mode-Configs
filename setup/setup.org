@@ -7,13 +7,16 @@
 
 #+LATEX_HEADER: \usepackage[T1]{fontenc}
 #+LATEX_HEADER: \usepackage[AUTO]{inputenc}
+#+LATEX_HEADER: \usepackage{csquotes}
 #+LATEX_HEADER: \usepackage{graphicx}
 #+LATEX_HEADER: \usepackage{amsmath, amsthm, amssymb}
 #+LATEX_HEADER: \usepackage[table, xcdraw]{xcolor}
 
+
 % Changing the langue of TOC and list of figures
 #+LATEX_HEADER: \renewcommand*{\contentsname}{Conteúdo}
 #+LATEX_HEADER: \renewcommand*{\listfigurename}{Lista de figuras}
+#+LATEX_HEADER: \renewcommand*{\figurename}{Figura}
 
 % Colorizing links in a nicer way.
 % #+LATEX_HEADER: \definecolor{bblue}{HTML}{0645AD}

@@ -28,7 +28,7 @@ Durante as várias metas existiram algumas mudanças, no entanto todas as mudan�
 * Desenvolvimento
 
 ** Arquitetura
-
+   
 \paragraph{}
 Para este trabalho usamos uma arquitetura cliente servidor, em que o servidor é designado por árbitro e o cliente é uma interface para um jogador.\\
 Cada jogador usa um cliente(shell), cliente este que interage com um servidor, ou seja, existem múltiplos clientes mas só um servidor.\\
@@ -40,6 +40,11 @@ Na figura seguinte mostramos um exemplo da arquitetura, com todos os pormenores,
 #+CAPTION: exemplo de caption de uma imagem
 #+LABEL: fig:qualquer-coisa
 [[file:images/esquema.png]]
+
+#+CAPTION: mais um exemplo de caption de uma imagem
+#+LABEL: fig:deve ser isto
+[[file:images/esquema.png]]
+
 
 
 *** Estruturas
